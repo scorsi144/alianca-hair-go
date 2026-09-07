@@ -107,7 +107,7 @@ h3 { font-size: 1.1rem; }
 
 /* Hero */
 .hero { background: linear-gradient(160deg, var(--ink), var(--navy-2)); color: var(--white); padding: 64px 0 72px; }
-.hero__grid { display: grid; grid-template-columns: 1.1fr minmax(0, 360px); gap: 44px; align-items: center; }
+.hero__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
 .hero h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); }
 .hero__tag { color: var(--gold); font-weight: 700; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
@@ -115,7 +115,7 @@ h3 { font-size: 1.1rem; }
 .hero__stats strong { display: block; font-size: 1.3rem; }
 .hero__stats span { font-size: 0.82rem; color: var(--muted); }
 .hero__media { position: relative; }
-.hero__media img { border-radius: 20px; box-shadow: var(--shadow); aspect-ratio: 4 / 5; object-fit: cover; max-width: min(100%, 340px); margin-inline: auto; }
+.hero__media img { border-radius: 20px; box-shadow: var(--shadow); aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
 
 /* Serviços */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 34px; }

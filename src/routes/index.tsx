@@ -66,5 +66,5 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  return <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />;
+  return <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: bodyHtml }} />;
 }

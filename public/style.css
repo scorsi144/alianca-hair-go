@@ -115,7 +115,7 @@ h3 { font-size: 1.1rem; }
 .hero__stats strong { display: block; font-size: 1.3rem; }
 .hero__stats span { font-size: 0.82rem; color: var(--muted); }
 .hero__media { position: relative; }
-.hero__media img { border-radius: 20px; box-shadow: var(--shadow); aspect-ratio: 4 / 5; object-fit: cover; }
+.hero__media img { border-radius: 20px; box-shadow: var(--shadow); aspect-ratio: 4 / 5; object-fit: cover; max-width: min(100%, 340px); margin-inline: auto; }
 
 /* Serviços */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 34px; }
